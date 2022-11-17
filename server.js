@@ -40,6 +40,7 @@ fs.unlink('read.js',(error)=>{
         console.log(error);
     }else{
         console.log("File is deleted");
+        console.log("Change is done");
     }
 
 })
